@@ -1,0 +1,19 @@
+# This File contains settings for a stupid little BA2Unpacker script I wrote
+
+StagingDirectory: Q:\Fallout\Fallout 4\mods
+# Path to Staging Directory either normal Fallout4 Root, or MO2 Mods Directory
+
+# Path to the location of your BSA Browser root Folder
+BSABrowserDirectory: C:\Users\qquen\OneDrive\Desktop\BSA Browser-1756-1-17-0-1675720395
+# Path to the location of your BSA Browser root Folder
+
+# Defines the max size for ba2 files to be extracted on a per file Type Basis
+# If a file is larger than the defined size it will be skipped
+# If a file is smaller than the defined size it will be extracted
+# All ba2 files with the ending you define will be extracted
+# Sizes in MBs
+
+FilesandSizes:
+    Main.ba2: 15
+    Textures.ba2: 10
+    Textures2.ba2: 10
